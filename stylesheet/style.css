@@ -1,0 +1,67 @@
+* {
+
+}
+
+.navbar {
+  background-color: red;
+  height: 10vw;
+  width: auto;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  align-items: flex-end;
+  height: 100%;
+}
+
+.membership {
+  background-color: purple;
+  height: 30vw;
+  width: auto;
+}
+
+.latest_articles {
+  background-color: green;
+  height: 30vw;
+  width: auto;
+}
+
+.latest_post {
+  background-color: yellow;
+  height: 30vw;
+  width: auto;
+}
+
+.center_ad{
+  background-color: orange;
+  height: 35vw;
+  width: auto;
+}
+
+.community_links{
+  background-color: blue;
+  height: 70vw;
+  width: auto;
+}
+
+.bottom_add {
+  background-color: cyan;
+  height: 30vw;
+  width: auto;
+
+}
+.created_post {
+  background-color: grey;
+  height: 30vw;
+  width: auto;
+}
+
+.newsletter_ad {
+  background-color: brown;
+  height: 30vw;
+  width: auto;
+}
