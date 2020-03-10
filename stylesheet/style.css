@@ -77,14 +77,9 @@ html {
   height: 30vw;
   width: auto;
   text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 #membership_info {
-  width: 60%;
-  height: 50%;
   line-height: 2rem;
 }
 
@@ -96,10 +91,11 @@ html {
   background-color: #808080;
 }
 
-#membership_img {
-  width: 20%;
-  height: 90%;
+.img {
+  width: 15vw;
+  height: 15vw;
   background-color: #808080;
+  border-radius: 5px;
 }
 
 #latest_posts {
@@ -117,7 +113,19 @@ html {
   padding: 3%;
 }
 
-.latest_post + .ad {
+.ad_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ad_text {
+  width: 60%;
+  height: 50%;
+}
+
+.ad {
   background-color: #808080;
 }
 
@@ -129,7 +137,6 @@ html {
   background-color: #808080;
   height: 60vw;
   text-align: center;
-  display: flex;
   flex-direction: column;
 }
 
@@ -195,12 +202,6 @@ html {
   width: 100vw;
 }
 
-.photo_portrait {
-  background-color: #808080;
-  width: 15vw;
-  height: 15vw;
-}
-
 .person_of_the_week_text {
   width: 75vw;
   height: 15vw;
@@ -230,4 +231,8 @@ html {
 
 .community_article footer {
   height: 49vw;
+}
+
+#design_systems_text {
+  width: 70%;
 }
