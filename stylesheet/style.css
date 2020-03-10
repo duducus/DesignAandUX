@@ -127,7 +127,7 @@ html {
 }
 
 .community_links {
-  background-color: blue;
+
   height: 70vw;
   width: auto;
 }
@@ -163,6 +163,23 @@ html {
   width: auto;
   text-align: center;
   padding-top: 210px;
+}
+
+.photo_portrait {
+  background-color: pink;
+  width: 15vw;
+  height: 15vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.person_of_the_week_text {
+  width: 50vw;
+  height: 15vw;
+}
+
+.community_links_container {
+  display: flex;
 }
 
 footer {
