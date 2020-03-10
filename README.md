@@ -11,7 +11,7 @@ This project consists of building a heatmap of the Smashing magazine website. [O
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/duducus/DesignAandUX/tree/feature)
 
 ## Authors
 
