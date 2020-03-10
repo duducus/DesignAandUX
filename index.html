@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="./stylesheet/main.css">
-    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
   </head>
   <body>
     <nav class="navbar">
@@ -20,24 +20,24 @@
       <h1 id="latest_articles_heading">Don’t Miss These Latest Articles</h1>
       <div class="latest_articles">
           <article class="latest_article">
-              <h3>Barry Pollard wrote</h3>
-              <h2>Setting Height And Width On Images Is Important Again</h2>
+            <h4 class="article_author">Barry Pollard wrote</h4>
+            <h3 class="article_title">Setting Height And Width On Images Is Important Again</h3>
           </article>
           <article class="latest_article">
-            <h3>Sandamal Siripathi wrote</h3>
-              <h2>Setting Height And Width On Images Is Important Again</h2>
+            <h4 class="article_author">Sandamal Siripathi wrote</h4>
+            <h3 class="article_title">Setting Height And Width On Images Is Important Again</h3>
           </article>
           <article class="latest_article">
-            <h3>Phil Smith wrote</h3>
-              <h2>Setting Height And Width On Images Is Important Again</h2>
+            <h4 class="article_author">Phil Smith wrote</h4>
+            <h3 class="article_title">Setting Height And Width On Images Is Important Again</h3>
           </article>
           <article class="latest_article">
-            <h3>Rachel Andrew wrote</h3>
-              <h2>Setting Height And Width On Images Is Important Again</h2>
+            <h4 class="article_author">Rachel Andrew wrote</h4>
+            <h3 class="article_title">Setting Height And Width On Images Is Important Again</h3>
           </article>
       </div>
       <div class="membership">
-          <div id="membership-info">
+          <div id="membership_info">
             All you want is a fast, secure web? That's why we use ad blockers, too, you know. We gotta keep those servers running though... So we've set up Membership for smart cookies like you. Coming up next:
             <ul>
               <li>Smashing TV Session with Paul Boag on “Live UX Review, With Paul Boag”.</li>
@@ -46,41 +46,91 @@
             </ul>
             <button>About Smashing Membership</button>
           </div>
-          <div id="membership-img">
+          <div id="membership_img">
             
           </div>
       </div>
-      <div class="latest_post">
-        <div>
-          <h3>When You Find A Good Idea, Look For A Better One</h3>
+      <div id="latest_posts">
+        <div class="latest_post">
+          <h3 class="article_title">When You Find A Good Idea, Look For A Better One</h3>
+          <h4 class="article_author">by Tony Kim</h4>
+          <p>
+            Prototyping helps to formulate the main trajectory of the design by framing your mind around a continuous pursuit of better concepts. Meet ProtoPie.
+          </p>
         </div>
-        <div>
-          <h3>Inspired Design Decisions: Neville Brody Design Cannot Remain Neutral</h3>
+        <div class="latest_post">
+          <h3 class="article_title">Inspired Design Decisions: Neville Brody Design Cannot Remain Neutral</h3>
+          <h4 class="article_author">by Andrew Clarke</h4>
+          <p>
+            How do we use blend modes to add depth to our designs, vertical text for impact and clipping paths to bring in character and energy to a design? In this article, we’ll explore just that.
+          </p>
         </div>
-        <div>
-          <h3>Where Does SEO Belong in Your Web Design Process.</h3>
+        <div class="latest_post">
+          <h3 class="article_title">Where Does SEO Belong in Your Web Design Process.</h3>
+          <h4 class="article_author">by Suzanne Scacca</h4>
+          <p>
+            The word “SEO” holds a lot of weight. We know how critical it is to the success of a website and, yet, it often becomes one of those things that’s left until the very end of a web design project to deal with.
+          </p>
         </div>
-        <div>
-          <h3>1651 Smashing Members</h3>
+        <div class="latest_post ad">
+          <h3 class="article_title">1651 Smashing Members</h3>
+          <p>
+            A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. 
+          </p>
+          <button>Explore features</button>
+          <legend>Already have an account? Sign in</legend>
         </div>
-        <div>
-          <h3></h3>
+        <div class="latest_post">
+          <h3 class="article_title">How To Build A Music Manager With Nuxt.js And Express.js</h3>
+          <h4 class="article_author">by Deven Rathore</h4>
+          <p>
+            This article introduces how Multer streamlines the process of handling file uploads. It also introduces how to use Mongoose to interact with our database by building a music manager app using Express.js alongside Multer for the music upload and …
+          </p>
         </div>
-        <div>
-          <h3></h3>
+        <div class="latest_post">
+          <h3 class="article_title">What Does A Foldable Web Actually Mean?</h3>
+          <h4 class="article_author">by Frederick O'Brien</h4>
+          <p>
+            Foldable devices have brought with them talk of a ‘foldable web,’ and the idea that long-standing web conventions may be on the verge of a serious shakeup. Is it all hype, or is it time to get flexible?
+          </p>
         </div>
-        <div>
-          <h3></h3>
+        <div class="latest_post">
+          <h3 class="article_title">Smashing Podcast Episode 10 With Trine Falbe And Martin Michael Frederiksen: What Is Ethical Design?</h3>
+          <h4 class="article_author">by Drew McLellan</h4>
+          <p>
+            Smashing Podcast Episode 10 With Trine Falbe And Martin Michael Frederiksen: What Is Ethical Design?
+          </p>
         </div>
-        <div>
-          <h3></h3>
+        <div class="latest_post">
+          <h3 class="article_title">Setting Up Tailwind CSS In A React Project</h3>
+          <h4 class="article_author">by Blessing Krofegha</h4>
+          <p>
+            Smashing Podcast Episode 10 With Trine Falbe And Martin Michael Frederiksen: What Is Ethical Design?
+          </p>
         </div>
-        <div>
-          <h3></h3>
+        <div class="latest_post ad">
+          <h3 class="article_title">New on Smashing TV</h3>
+          <p>
+            A channel where seasoned developers show how they design, build, work and play. Coming up next: 
+            Live UX Review, with Paul Boag (Mar 10).
+          </p>
+          <button>See all upcoming episodes</button>
+          <legend>Already have an account? Sign in!</legend>
         </div>
       </div>
-      <div class="center_ad">
-        Ad
+      <div class="ethical_design_handbook ad">
+        <div>
+          <h2>Ethical Design Handbook:</h2>
+          <h3>Leaving Dark Patterns Behind</h3>
+          <p>
+            With practical techniques & strategies to make honest interfaces work for digital products. Help your business grow sustainably — without dark patterns — and comply with GDPR and CCPA.
+          </p>
+          <button>Learn more about the book</button>
+        </div>
+        <div class="ad_image">
+          
+        </div>
+
       </div>
       <div class="community_links">
           Person of the week and 6 divs
