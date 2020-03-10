@@ -2,6 +2,21 @@ html {
   font-size: 14px;
 }
 
+.importance_1 {
+  background-color: #404040;
+  color: white;
+}
+
+.importance_2 {
+  background-color: #606060;
+  color: white;
+}
+
+.importance_3 {
+  background-color: #808080;
+  color: white;
+}
+
 .navbar {
   display: flex;
   height: 10vw;
@@ -127,7 +142,6 @@ html {
 }
 
 .community_links {
-
   height: 70vw;
   width: auto;
 }
@@ -165,23 +179,55 @@ html {
   padding-top: 210px;
 }
 
-.photo_portrait {
-  background-color: pink;
-  width: 15vw;
-  height: 15vw;
+#community_links_container {
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
+}
+
+#person_of_the_week_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vw;
+  width: 100vw;
+}
+
+.photo_portrait {
+  background-color: #808080;
+  width: 15vw;
+  height: 15vw;
 }
 
 .person_of_the_week_text {
-  width: 50vw;
+  width: 75vw;
   height: 15vw;
-}
-
-.community_links_container {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
 }
 
-footer {
+#community_links_articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
+.community_article {
+  width: 35vw;
+  height: 30%;
+  line-height: 2rem;
+  border: 1px solid black;
+}
+
+.community_article h2 {
+  background-color: #808080;
+}
+
+.community_article footer {
   height: 49vw;
 }
