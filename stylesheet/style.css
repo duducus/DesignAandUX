@@ -3,23 +3,43 @@ html {
 }
 
 footer {
-  height: 50vw;
+  background-color: #808080;
+  color: white;
+  height: 30vw;
   display: flex;
-}
-
-footer ul {
-  display: flex;
-  padding-top: 90px;
-  list-style: disc;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 footer h3 {
   font-size: 18px;
 }
 
-footer ul li {
-  font-size: 30px;
-  margin: 0 20px 0 20px;
+#footer_links {
+  list-style: disc;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80vw;
+  justify-content: center;
+}
+
+.footer_link {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin: 0 20px;
+}
+
+#disclaimer {
+  width: 30%;
+}
+
+#warning_links {
+  display: flex;
+}
+
+.warning_link {
+  padding: 0 10px;
 }
 
 .importance_1 {
