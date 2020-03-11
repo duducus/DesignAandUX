@@ -2,6 +2,26 @@ html {
   font-size: 14px;
 }
 
+footer {
+  height: 50vw;
+  display: flex;
+}
+
+footer ul {
+  display: flex;
+  padding-top: 90px;
+  list-style: disc;
+}
+
+footer h3 {
+  font-size: 18px;
+}
+
+footer ul li {
+  font-size: 30px;
+  margin: 0 20px 0 20px;
+}
+
 .importance_1 {
   background-color: #404040;
   color: white;
