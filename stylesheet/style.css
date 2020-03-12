@@ -209,9 +209,14 @@ footer h3 {
 .newsletter_ad {
   background-color: brown;
   height: 30vw;
-  width: auto;
-  text-align: center;
-  padding-top: 210px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.newsletter_ad_content {
+
 }
 
 #community_links_container {
