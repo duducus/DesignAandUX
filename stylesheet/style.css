@@ -48,11 +48,21 @@ footer h3 {
 }
 
 .importance_2 {
-  background-color: #606060;
+  background-color: #505050;
   color: white;
 }
 
 .importance_3 {
+  background-color: #606060;
+  color: white;
+}
+
+.importance_4 {
+  background-color: #707070;
+  color: white;
+}
+
+.importance_5 {
   background-color: #808080;
   color: white;
 }
@@ -72,27 +82,23 @@ footer h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar div:hover {
+  color: black;
 }
 
 #latest_articles_heading {
-  background-color: white;
+  background: white;
   font-size: 2.5rem;
   text-align: center;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
   top: 15vw;
-  width: 30%;
-}
-
-.article_title {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.article_author {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
+  z-index: 1;
 }
 
 .latest_articles {
@@ -103,14 +109,43 @@ footer h3 {
 }
 
 .latest_article {
-  background-color: #808080;
   border: 1px solid black;
   width: 50%;
   height: 50%;
+  padding: 5%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.article_author {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  padding: 20px;
+}
+
+.article_author_image {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  margin: auto auto;
+}
+
+.article_author_name {
+  width: 90%;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.5rem;
+  margin: auto 0;
+  padding: 0 20px;
+}
+
+.article_title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  text-align: left;
 }
 
 #latest_posts {
@@ -126,6 +161,30 @@ footer h3 {
   width: 33.33%;
   height: 33.33%;
   padding: 3%;
+}
+
+.latest_post .post_title {
+  height: 30%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.latest_post .post_author {
+  height: 10%;
+  font-size: 0.8rem;
+}
+
+.latest_post p {
+  height: 60%;
+}
+
+.latest_post:hover {
+  background-color: #808080;
+  color: white;
+}
+
+.latest_ad {
+
 }
 
 .ad {
@@ -185,14 +244,6 @@ footer h3 {
   padding: 3vw 3vw;
 }
 
-.ethical_design_handbook h2 {
-
-}
-
-.ethical_design_handbook h3 {
-
-}
-
 .community_links {
   height: 60vw;
   width: 100vw;
@@ -231,9 +282,6 @@ footer h3 {
 .curated_posts_block h3 {
   font-size: 1.2rem;
   line-height: 2rem;
-}
-
-.curated_posts_block ul {
 }
 
 .curated_posts_block ul li {
@@ -317,8 +365,4 @@ footer h3 {
 
 .community_article footer {
   height: 49vw;
-}
-
-.design_systems_book {
-
 }
