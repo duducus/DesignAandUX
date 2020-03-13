@@ -176,15 +176,12 @@ footer h3 {
 
 .latest_post p {
   height: 60%;
+  font-size: 1.2rem;
 }
 
 .latest_post:hover {
   background-color: #808080;
   color: white;
-}
-
-.latest_ad {
-
 }
 
 .ad {
@@ -232,10 +229,6 @@ footer h3 {
   border-radius: 5px;
 }
 
-.latest_post p {
-  font-size: 1.2rem;
-}
-
 .ethical_design_handbook {
   background-color: grey;
   height: 30vw;
@@ -245,16 +238,72 @@ footer h3 {
 }
 
 .community_links {
-  height: 60vw;
+  height: 55vw;
   width: 100vw;
 }
 
-.bottom_add {
-  background-color: cyan;
-  height: 30vw;
-  width: auto;
-  text-align: center;
-  padding-top: 210px;
+#community_links_container {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+#person_of_the_week_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+}
+
+.person_of_the_week_text {
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+#community_links_articles {
+  height: 85%;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.community_article {
+  width: 35%;
+  height: 10%;
+  line-height: 2rem;
+  border: 1px solid black;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.community_article h2 {
+  background-color: #808080;
+}
+
+.community_article footer {
+  height: 49vw;
+}
+
+.community_link_author {
+  font-size: 0.9rem;
+  height: 10%;
+}
+
+.community_link_title {
+  font-size: 2rem;
+  height: 20%;
 }
 
 #membership_ad {
@@ -310,59 +359,4 @@ footer h3 {
 
 .newsletter_ad_img {
   margin: 0 auto;
-}
-
-#community_links_container {
-  display: flex;
-  height: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid black;
-}
-
-#person_of_the_week_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 15%;
-  width: 100%;
-}
-
-.person_of_the_week_text {
-  width: 75vw;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  line-height: 2rem;
-}
-
-#community_links_articles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-/* #community_links_articles {
-
-  width: 100vw;
-  height: 80%;
-  padding: 20px;
-
-} */
-
-.community_article {
-  width: 35%;
-  height: 10%;
-  line-height: 2rem;
-  border: 1px solid black;
-}
-
-.community_article h2 {
-  background-color: #808080;
-}
-
-.community_article footer {
-  height: 49vw;
 }
