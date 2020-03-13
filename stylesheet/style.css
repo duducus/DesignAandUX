@@ -184,6 +184,22 @@ footer h3 {
   color: white;
 }
 
+.latest_post + .ad h3 {
+  font-size: 2rem;
+}
+
+.latest_post + .ad p {
+
+}
+
+.latest_post + .ad button {
+
+}
+
+.latest_post + .ad small {
+
+}
+
 .ad {
   background-color: #808080;
 }
@@ -238,20 +254,12 @@ footer h3 {
 }
 
 .community_links {
-  height: 55vw;
+  height: 60vw;
   width: 100vw;
 }
 
-#community_links_container {
-  display: flex;
-  height: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  border: 1px solid black;
-}
-
 #person_of_the_week_container {
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -303,12 +311,14 @@ footer h3 {
 
 .community_link_title {
   font-size: 2rem;
+  line-height: 3rem;
   height: 20%;
 }
 
 #membership_ad {
   height: 30vw;
   width: 100vw;
+  border: 1px solid black;
 }
 
 .curated_posts {
