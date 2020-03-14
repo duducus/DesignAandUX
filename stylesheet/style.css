@@ -150,31 +150,51 @@ footer h3 {
 
 #latest_posts {
   width: 100%;
-  height: 80vw;
+  height: 90vw;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#latest_posts .row {
+  width: 100%;
+  height: 22%;
+  display: flex;
+}
+
+#latest_posts .row_ad {
+  height: 39%;
 }
 
 .latest_post {
   border: 1px solid black;
   width: 33.33%;
-  height: 33.33%;
-  padding: 3%;
+  height: 100%;
+  padding: 2%;
+}
+
+.latest_post_ad_img {
+  width: 60%;
+  height: 50%;
+  margin: 5% auto;
+  border-radius: 5%;
 }
 
 .latest_post .post_title {
-  height: 30%;
+  height: 4.5rem;
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 2.2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .latest_post .post_author {
-  height: 10%;
+  height: 1rem;
   font-size: 0.8rem;
 }
 
-.latest_post p {
+.latest_post_content {
   height: 60%;
   font-size: 1.2rem;
 }
@@ -184,24 +204,12 @@ footer h3 {
   color: white;
 }
 
-.latest_post + .ad h3 {
+.latest_ad_title {
   font-size: 2rem;
 }
 
-.latest_post + .ad p {
-
-}
-
-.latest_post + .ad button {
-
-}
-
-.latest_post + .ad small {
-
-}
-
-.ad {
-  background-color: #808080;
+.latest_ad_content {
+  margin: 2% 0;
 }
 
 .ad_container {
@@ -220,16 +228,6 @@ footer h3 {
   line-height: 2rem;
 }
 
-.ad_text h2 {
-  font-size: 3rem;
-  line-height: 3.2rem;
-}
-
-.ad_text h3 {
-  font-size: 2.5rem;
-  line-height: 2.7rem;
-}
-
 .ad_text button {
   background-color: #808080;
   font-size: 1.1rem;
@@ -242,15 +240,47 @@ footer h3 {
   height: 15vw;
   margin: 30px 0;
   background-color: #606060;
-  border-radius: 5px;
+  border-radius: 5%;
+}
+
+.latest_post button {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.latest_post button:hover {
+  background-color: #808080;
 }
 
 .ethical_design_handbook {
   background-color: grey;
-  height: 30vw;
+  height: 60vw;
   text-align: center;
   flex-direction: column;
   padding: 3vw 3vw;
+}
+
+#handbook_ad_text {
+  height: 20%;
+}
+
+#handbook_ad_text h2 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+#handbook_ad_text h3 {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+}
+
+#handbook_ad_text p {
+  margin: 10px 0;
+}
+
+.ethical_design_handbook .ad_img {
+  height: 80%;
+  width: 40%;
 }
 
 .community_links {
