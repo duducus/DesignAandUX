@@ -148,6 +148,10 @@ footer h3 {
   text-align: left;
 }
 
+.ethical_design_handbook button {
+  line-height: 2.5rem;
+}
+
 #latest_posts {
   width: 100%;
   height: 90vw;
@@ -166,7 +170,6 @@ footer h3 {
 }
 
 .latest_post {
-  border: 1px solid black;
   width: 33.33%;
   height: 100%;
   padding: 2%;
@@ -201,7 +204,14 @@ footer h3 {
 
 .latest_post:hover {
   background-color: #808080;
+  border: 1px solid black;
   color: white;
+}
+
+.latest_post button {
+  line-height: 2rem;
+  width: 100%;
+  margin: 5% 0;
 }
 
 .latest_ad_title {
@@ -243,11 +253,6 @@ footer h3 {
   border-radius: 5%;
 }
 
-.latest_post button {
-  width: 100%;
-  margin: 5% 0;
-}
-
 .latest_post button:hover {
   background-color: #808080;
 }
@@ -258,6 +263,16 @@ footer h3 {
   text-align: center;
   flex-direction: column;
   padding: 3vw 3vw;
+}
+
+.community_article h2 {
+  background-color: #808080;
+}
+
+.curated_posts_block h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 10px 0;
 }
 
 #handbook_ad_text {
@@ -285,6 +300,7 @@ footer h3 {
 
 .community_links {
   height: 60vw;
+  max-height: 1000px;
   width: 100vw;
 }
 
@@ -326,10 +342,6 @@ footer h3 {
   -webkit-box-orient: vertical;
 }
 
-.community_article h2 {
-  background-color: #808080;
-}
-
 .community_article footer {
   height: 49vw;
 }
@@ -347,13 +359,14 @@ footer h3 {
 
 #membership_ad {
   height: 30vw;
+  max-height: 500px;
   width: 100vw;
   border: 1px solid black;
 }
 
 .curated_posts {
-  background-color: grey;
-  height: 55vw;
+  background-color: white;
+  height: 65vw;
   width: auto;
   display: flex;
   flex-wrap: wrap;
@@ -362,26 +375,23 @@ footer h3 {
 }
 
 .curated_posts_block {
-  border: 1px solid black;
-  width: 30%;
+  width: 33.33%;
   height: 45%;
   padding: 3%;
 }
 
-.curated_posts_block h3 {
-  font-size: 1.2rem;
-  line-height: 2rem;
+.curated_posts_block:hover {
+  background-color: #808080;
+  border: 1px solid black;
 }
 
 .curated_posts_block ul li {
-  line-height: 1.8rem;
+  line-height: 2rem;
   text-decoration: underline;
   list-style: disc;
 }
 
 .newsletter_ad {
-  border: 1px solid black;
-  background-color: white;
   height: 45%;
   width: 65%;
   display: flex;
