@@ -247,7 +247,7 @@ footer h3 {
 
 .ad_img {
   width: 15vw;
-  height: 15vw;
+  height: 20vw;
   margin: 30px 0;
   background-color: #606060;
   border-radius: 5%;
@@ -299,7 +299,7 @@ footer h3 {
 }
 
 .community_links {
-  height: 60vw;
+  height: 65vw;
   max-height: 1000px;
   width: 100vw;
 }
@@ -392,7 +392,7 @@ footer h3 {
 }
 
 .newsletter_ad {
-  height: 45%;
+  height: 55%;
   width: 65%;
   display: flex;
   justify-content: center;
@@ -401,12 +401,23 @@ footer h3 {
 .newsletter_ad_content {
   display: flex;
   width: 70%;
+  height: 100%;
   padding: 3%;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
 }
 
+.newsletter_ad_content h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.newsletter_ad_content p {
+  margin: 20px 0;
+}
+
 .newsletter_ad_img {
-  margin: 0 auto;
+  margin: 20px auto;
+  height: 500px;
 }
