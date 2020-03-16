@@ -275,6 +275,15 @@ footer h3 {
   padding: 10px 0;
 }
 
+.newsletter_ad_content h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.newsletter_ad_content p {
+  margin: 20px 0;
+}
+
 #handbook_ad_text {
   height: 20%;
 }
@@ -406,15 +415,6 @@ footer h3 {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-}
-
-.newsletter_ad_content h3 {
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-.newsletter_ad_content p {
-  margin: 20px 0;
 }
 
 .newsletter_ad_img {
