@@ -1,5 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap");
+
 html {
   font-size: 14px;
+}
+
+main {
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+}
+
+p,
+.ad_text,
+li {
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 footer {
@@ -115,7 +136,6 @@ footer h3 {
   top: 17.5vw;
   z-index: 1;
 }
-
 
 .latest_articles {
   width: 100%;
@@ -418,7 +438,7 @@ footer h3 {
 
 .newsletter_ad {
   height: 55%;
-  width: 65%;
+  width: 66.66%;
   display: flex;
   justify-content: center;
 }
