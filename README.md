@@ -17,9 +17,9 @@ This project consists of building a heatmap of the Smashing magazine website. [O
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@duducus](https://github.com/duducus)
+- Twitter: [@jorgeceron](https://twitter.com/jorgeceron1)
+- Linkedin: [linkedin](https://mx.linkedin.com/in/jorge-francisco-cer%C3%B3n-gil-343583113)
 
 👤 **Marcos Hernández Campos**
 
