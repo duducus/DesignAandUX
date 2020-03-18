@@ -11,11 +11,11 @@ This project consists of building a heatmap of the Smashing magazine website. [O
 
 ## Live Demo
 
-[Live Demo Link](https://marcoshdezcam.github.io/gh-pages-lives/)
+[Live Demo Link](https://marcoshdezcam.github.io/gh-pages-lives/P5_Heatmap_Magazine/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Jorge Cerón**
 
 - Github: [@duducus](https://github.com/duducus)
 - Twitter: [@jorgeceron](https://twitter.com/jorgeceron1)
