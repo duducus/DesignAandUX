@@ -4,12 +4,6 @@ This project consists of building a heatmap of the Smashing magazine website. [O
 
 ![screenshot](img/screenshot.png)
 
-In this simple project, we breaking apart the website for a popular design magazine with which you’re probably familiar by now – Smashing Magazine.
-
-The goal for this exercise is to start training to think in terms of visual hierarchy, typography and design principles.
-
-The job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.
-
 ## Built With
 
 - HTML & CSS
@@ -21,7 +15,7 @@ The job is to create a grayscale heat map of the website that indicates which el
 
 ## Authors
 
-👤 **Jorge Cerón**
+👤 **Author1**
 
 - Github: [@duducus](https://github.com/duducus)
 - Twitter: [@jorgeceron](https://twitter.com/jorgeceron1)
@@ -42,6 +36,12 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
