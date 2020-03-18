@@ -21,7 +21,7 @@ The job is to create a grayscale heat map of the website that indicates which el
 
 ## Authors
 
-👤 **Author1**
+👤 **Jorge Cerón**
 
 - Github: [@duducus](https://github.com/duducus)
 - Twitter: [@jorgeceron](https://twitter.com/jorgeceron1)
@@ -42,12 +42,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
