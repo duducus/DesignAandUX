@@ -11,7 +11,7 @@ This project consists of building a heatmap of the Smashing magazine website. [O
 
 ## Live Demo
 
-[Live Demo Link](http://htmlpreview.github.io/?https://github.com/duducus/DesignAandUX/blob/feature/index.html)
+[Live Demo Link](https://marcoshdezcam.github.io/gh-pages-lives/)
 
 ## Authors
 

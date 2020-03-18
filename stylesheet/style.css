@@ -197,18 +197,18 @@ footer {
 
 #latest_posts .row {
   width: 100%;
-  height: 22%;
+  height: 30%;
   display: flex;
 }
 
 #latest_posts .row_ad {
-  height: 39%;
+  height: 35%;
 }
 
 .latest_post {
   width: 33.33%;
   height: 100%;
-  padding: 2%;
+  padding: 4%;
 }
 
 .latest_post_ad_img {
@@ -251,7 +251,8 @@ footer {
 }
 
 .latest_ad_title {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .latest_ad_content {
